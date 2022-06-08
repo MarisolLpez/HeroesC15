@@ -1,0 +1,136 @@
+*{
+    font-family: ;font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 0;
+}
+
+header{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: -13px;
+}
+
+header>p{
+    background-color: skyblue;
+    font-size: small;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 0%;
+    position: relative;
+}
+
+header>nav{
+    background-color: #00669F;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+    padding-left: 30px;
+    box-shadow: 0 5px 40px;
+    margin-top: 0%;
+}
+
+main{
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+.caja1{
+    display: inline-block;
+    background-color: #F3F3F3;
+    width: 300px;
+    height:fit-content;
+    position: relative;
+    box-shadow: 0 3px 10px;
+    border-radius: 16px 16px 0 0;
+    left: 150px;
+}
+
+.caja2{
+    display: inline-block;
+    background-color: #F3F3F3;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 3px 10px;
+    border-radius: 16px 16px 0 0;
+    left: 230px;
+}
+
+.caja3{
+    display: inline-block;
+    background-color:#F3F3F3;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 3px 10px;
+    border-radius: 16px 16px 0 0;
+    left: 300px;
+}
+
+.caja1>.cabecera{
+    background-image: url(../img/fondo-batman.png);    
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 190px;
+}
+
+.caja2>.cabecera{
+    background-image: url(../img/fondo-harley.png);    
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 190px;
+}
+
+.caja3>.cabecera{
+    background-image: url(../img/fondo-superman.jpg);    
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 190px;
+    background-size: 300px 100%;
+    border-radius: 16px 16px 0 0;
+    position: relative;
+
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: relative;
+    top: 120px;
+    left: 82px;
+}
+
+div>h2{
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+}
+
+div>p{
+    display: block;
+    padding: 15px;
+}
+
+#boton{
+    display: block;
+    text-align: center;
+    background-color: #00669F;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    color: white;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    font-size: small;
+    padding: 3px;
+    margin-bottom: 0%;
+    padding-left: 10px;
+}

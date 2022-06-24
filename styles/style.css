@@ -30,13 +30,16 @@ header>nav{
     font-weight: 600;
     padding: 15px;
     padding-left: 30px;
-    box-shadow: 0 5px 40px;
+    box-shadow: 0 -2px 35px;
     margin-top: 0%;
 }
 
 main{
     margin-top: 150px;
     margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .caja1{
@@ -44,7 +47,6 @@ main{
     background-color: #F3F3F3;
     width: 300px;
     height:fit-content;
-    position: relative;
     box-shadow: 0 3px 10px;
     border-radius: 16px 16px 0 0;
     left: 150px;
@@ -54,7 +56,6 @@ main{
     display: inline-block;
     background-color: #F3F3F3;
     width: 300px;
-    position: relative;
     box-shadow: 0 3px 10px;
     border-radius: 16px 16px 0 0;
     left: 230px;
@@ -64,11 +65,20 @@ main{
     display: inline-block;
     background-color:#F3F3F3;
     width: 300px;
-    position: relative;
     box-shadow: 0 3px 10px;
     border-radius: 16px 16px 0 0;
     left: 300px;
 }
+
+.caja4{
+    display: inline-block;
+    background-color:#F3F3F3;
+    width: 300px;
+    box-shadow: 0 3px 10px;
+    border-radius: 16px 16px 0 0;
+    left: 300px;
+}
+
 
 .caja1>.cabecera{
     background-image: url(../img/fondo-batman.png);    
@@ -91,8 +101,15 @@ main{
     height: 190px;
     background-size: 300px 100%;
     border-radius: 16px 16px 0 0;
-    position: relative;
+}
 
+.caja4>.cabecera{
+    background-image: url(../img/fondo-gatubela.png);    
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 190px;
+    background-size: 300px 100%;
+    border-radius: 16px 16px 0 0;
 }
 
 .perfil{
@@ -133,4 +150,13 @@ footer{
     padding: 3px;
     margin-bottom: 0%;
     padding-left: 10px;
+}
+
+@media (max-width: 480px){
+    main{
+        background-color: red;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 }
